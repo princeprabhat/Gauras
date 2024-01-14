@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>Contact-Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../design.css">
+<link rel="stylesheet" href="../responsive.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://gauras.co.in/"><img src="../Images/Logo Navbar.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://gauras.co.in/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://gauras.co.in/Pages/About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://gauras.co.in/Pages/Products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://gauras.co.in/Pages/Contact-Us.html">Contact-Us</a>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="form-container-text">
+        <h2>Contact Us</h2>
+
+    </div>
+    <div class="form-container-right-left">
+
+        <div class="form-contact-info">
+            <h3>Gauras Enterprise</h3>
+            <p>We at Gauras provide the best A2 milk and organic products direct to your home from the farm.</p>
+            <div class="contact-block">
+                <img src="../Images/address-card-logo.png">
+                <p>Gauras Enterprise, Vishnu Bihar Colony Sitarampur, West Burdwan, W.B. 713359</p>
+            </div>
+            <div class="contact-block">
+                <img src="../Images/phone-logo.png">
+                <p>+91-8250420716</p>
+
+            </div>
+            <div class="contact-block">
+                <img src="../Images/@-logo.png">
+                <p>connectgauras@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="contactForm">
+            <div id="alert-box">
+
+            </div>
+            <div class="nameSec">
+                <label for="name">Your Name</label>
+                <input type="text" id='name'>
+            </div>
+
+            <div class="emailMobileSec">
+                <div>
+                    <label for="email">Your E-mail</label>
+                    <input type="text" id='email'>
+                </div>
+                <div>
+                    <label for="mobile">Your Mobile Number</label>
+                    <input type="text" id='mobile'>
+                </div>
+            </div>
+
+            <div class="msgSec">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Write your message..."></textarea>
+            </div>
+            <div id="captcha-block">
+                <div id="second-block-cnt-2"><span id="captcha-item-box-inline">as@a1209AT2t</span>
+                    <button type="reset" id="catpcha-refresh-btn" onclick="refreshcaptcha()"><i
+                            class="fa fa-refresh fa-spin"></i></button>
+                </div>
+
+
+                <input type="text" name="captcha" id="captcha-id-box" placeholder="Enter captcha...">
+            </div>
+
+            <div class="submitBtn" id="contact-btn-block">
+
+                <button onclick="SendForm()">Send Message</button>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo-left">
+                <img src="../Images/Footer Logo.svg" alt="Gauras">
+            </div>
+            <div class="footer-middle-links">
+                <p>Quick Links</p>
+                <ul>
+                    <li class="footer-links"> <a aria-current="page" href="https://gauras.co.in/">Home</a></li>
+                    <li class="footer-links"><a href="https://gauras.co.in/Pages/About.html">About</a>
+                    </li>
+                    <li class="footer-links"><a href="https://gauras.co.in/Pages/Products.html">Products</a></li>
+                    <li class="footer-links"><a href="https://gauras.co.in/Pages/A2-Milk.html">A2-Milk</a></li>
+                    <li class="footer-links"><a href="https://gauras.co.in/Pages/A2-Ghee.html">A2-Ghee</a></li>
+                    <li class="footer-links"><a href="https://gauras.co.in/Pages/Contact-Us.html">Contact-Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-text-right">
+                <div class="form-contact-info">
+                    <h3>Gauras Enterprise</h3>
+                    <p>We at Gauras provide the best A2 milk and organic products direct to your home from the farm.</p>
+                    <div class="contact-block">
+                        <img src="../Images/address-card-logo.png">
+                        <p>Gauras Enterprise, Vishnu Bihar Colony Sitarampur, West Burdwan, W.B. 713359</p>
+                    </div>
+                    <div class="contact-block">
+                        <img src="../Images/phone-logo.png">
+                        <p>+91-8250420716</p>
+
+                    </div>
+                    <div class="contact-block">
+                        <img src="../Images/@-logo.png">
+                        <p>connectgauras@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div id="footer-banner">
+
+        <P> &#174;Powered by<span><a href="https://www.infometrix.tech"> Infometrix Technologies</a></span></P>
+    </div>
+
+    <!---Form Validation and SMPT setup-->
+    <script>
+
+        function validateEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+
+
+
+        function SendForm() {
+            let showCaptcha = document.getElementById("captcha-id-box").value;
+
+
+
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let phone = document.getElementById("mobile").value;
+            let messageText = document.getElementById("message").value;
+
+            let alertMessage = document.getElementById("alert-box");
+
+
+
+
+
+            function hideMessage() {
+                alertMessage.style.display = "none";
+            }
+
+            if (!name) {
+                alertMessage.style.display = "block";
+                alertMessage.innerText = "Name is required *";
+                return
+            }
+            const isValidEmail = validateEmail(email);
+            if (!email) {
+                alertMessage.style.display = "block";
+                alertMessage.innerText = "Email is required *";
+                return
+            }
+            if (!phone) {
+                alertMessage.style.display = "block";
+                alertMessage.innerText = "Phone number is required *";
+                return
+            }
+
+            if (!isValidEmail) {
+                alertMessage.style.display = "block";
+                alertMessage.innerText = "Email is not valid!";
+                return
+            }
+
+            if (!/^\d{10}$/.test(phone)) {
+                alertMessage.style.display = "block";
+                alertMessage.innerText = "Number is not valid!";
+                return
+            }
+
+            if (showCaptcha !== captchaCode) {
+                alertMessage.style.display = "block";
+                alertMessage.style.color = "#e84848";
+                alertMessage.innerText = "Not a Valid Captcha";
+                return
+            }
+
+
+            let bodyFormat = `Name : ${name} <br> Email: ${email}<br> Phone: ${phone}<br><br> ${messageText}`;
+
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "connect@gauras.co.in",
+                Password: "FB88BC6803710AA087F05DA24BDA65214C68",
+                To: 'connectgauras@gmail.com',
+                From: "connect@gauras.co.in",
+                Subject: `You have a query from ${name}`,
+                Body: `${bodyFormat}`
+
+            }).then(
+
+                message => {
+
+                    if (message === `OK`) {
+                        alertMessage.style.display = "block";
+                        alertMessage.style.color = "green";
+                        alertMessage.innerText = "Thank you for your query!! We'll get back to you soon";
+                        document.getElementById("name").value = "";
+                        document.getElementById("email").value = "";
+                        document.getElementById("mobile").value = "";
+                        document.getElementById("message").value = "";
+                        document.getElementById("captcha-id-box").value = "";
+                        refreshcaptcha();
+                        setTimeout(hideMessage, 4000);
+                    }
+                    else {
+                        alertMessage.style.display = "block";
+                        alertMessage.style.color = "#e84848";
+                        alertMessage.innerText = "Message Not Sent! Please try again";
+                        document.getElementById("name").value = "";
+                        document.getElementById("email").value = "";
+                        document.getElementById("mobile").value = "";
+                        document.getElementById("message").value = "";
+                        document.getElementById("captcha-id-box").value = "";
+                        refreshcaptcha();
+                        setTimeout(hideMessage, 4000);
+                    }
+                }
+            )
+        }
+
+        let captchaCode;
+        generateCaptcha();
+
+        function generateCaptcha() {
+            let text = "";
+            const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            const len = 6;
+            for (let i = 0; i < len; i++) {
+                text += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            document.getElementById("captcha-item-box-inline").innerText = text;
+            captchaCode = text;
+
+            return text;
+
+
+        }
+        function refreshcaptcha() {
+            let test = generateCaptcha();
+            document.getElementById("captcha-item-box-inline").innerText = test;
+            captchaCode = test;
+            document.getElementById("captcha-id-box").value = "";
+
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../logic.js" async defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+</body>
+
+</html>

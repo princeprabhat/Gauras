@@ -1,0 +1,1593 @@
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    overflow-x: hidden;
+
+
+
+}
+
+body {
+    background-color: #EECACB !important;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hero-slider-container {
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh !important;
+
+
+}
+
+
+
+.carousel-caption {
+    top: 30%;
+}
+
+.carousel-caption h2 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.home-card-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    height: 300px;
+    width: 300px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.card img {
+    width: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #8D2C30;
+
+}
+
+.homepage-about-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+
+.left-image img {
+
+    width: 25em;
+    max-width: none !important;
+}
+
+.homepage-about-container .right-text {
+    width: 100%;
+    padding: 10px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-text h4 {
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 15px;
+
+}
+
+.right-text h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 25px;
+}
+
+.right-text h2 span {
+    border-bottom: 2px solid;
+}
+
+.right-text p {
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+    width: 84%;
+
+}
+
+.village-png {
+
+    background: url(./Images/village.png);
+    background-size: contain;
+    width: 90%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.home-about-container {
+    width: 100%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.heading-para-container p {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+
+
+}
+
+.heading-para-container h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.about-cards-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.cards-about {
+    background-color: white;
+    padding: 20px;
+    flex: 4;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 26%);
+
+}
+
+.cards-about img {
+    width: 80px;
+    border: 1px solid rgba(141, 44, 48, 1);
+    border-radius: 50%;
+    background-color: rgba(238, 202, 203, 1);
+}
+
+.cards-about h3 {
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.cards-about p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+
+.products-homepage-container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.element-price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.element-price-container .Price-btn-mlk {
+    padding: 10px 45px;
+
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 50px;
+    color: #8D2C30;
+    cursor: pointer;
+}
+
+#card-milk-pricing {
+    display: none;
+    justify-content: center;
+}
+
+
+
+
+.product-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.product-card {
+    width: 400px;
+    height: 400px;
+
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.product-card img {
+    width: 160px;
+
+}
+
+.product-card button {
+    position: absolute;
+    margin-top: 26em;
+    background: #8D2C30;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 25px 5px 25px;
+}
+
+.product-card button a {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+
+}
+
+#ghee-product-pic {
+    width: 300px !important;
+}
+
+
+
+.image-container-home {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+
+.text-content-home {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 7rem;
+}
+
+.text-content-home h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+.text-content-home p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+
+#image-box-triple {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 20px;
+    padding-bottom: 70px;
+
+
+}
+
+.triple-image img {
+    width: 20em;
+}
+
+.triple-image p {
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+
+}
+
+.triple-image ul {
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+}
+
+.product-heading p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+
+}
+
+.product-heading h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 40px;
+
+}
+
+.call-to-action-home {
+    background: url(./Images/C2A\ scene.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+
+}
+
+.call-to-action-home h2 {
+    width: 80%;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.call-to-action-home button {
+    border-radius: 19px;
+    border: none;
+    background-color: rgb(141 44 48);
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.call-to-action-home button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+
+}
+
+/*********************************************************************************************************************/
+/* About Page  */
+/*********************************************************************************************************************/
+
+.hero-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(./Images-About/hero-back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.hero-about h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 94px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+        -3px 0px 7px rgba(81, 67, 21, 0.8),
+        0px 4px 7px rgba(81, 67, 21, 0.8);
+}
+
+.hero-about p {
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+        -3px 0px 7px rgba(81, 67, 21, 0.8),
+        0px 4px 7px rgba(81, 67, 21, 0.8);
+    margin-top: 15px;
+}
+
+.about-image-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+.about-image-container .first-column-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.first-column-about img {
+
+    width: 45em;
+}
+
+.about-image-container .second-column-about {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.middle-container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.middle-container-about h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: center;
+    color: #8D2C30;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.middle-container-about p {
+    width: 80%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: center;
+    color: #8D2C30;
+}
+
+.middle-container-about img {
+    width: 100%;
+    position: relative;
+}
+
+.container-about-cards-block {
+    width: 80%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.about-card-text-heading {
+    margin-bottom: 80px;
+}
+
+.about-card-text-heading h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: center;
+    color: #8D2C30;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.about-card-text-heading p {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #8D2C30;
+}
+
+.about-middle-card-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.middle-cards-2x2 {
+    background-color: white;
+    padding: 40px;
+    filter: drop-shadow(0px 0px 20px #8D2C30);
+    flex: 6;
+
+}
+
+.middle-cards-2x2 img {
+    width: 80px;
+    border: 1px solid rgba(141, 44, 48, 1);
+    border-radius: 50%;
+    background-color: rgba(238, 202, 203, 1);
+}
+
+.middle-cards-2x2 h3 {
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.middle-cards-2x2 p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+#counter-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#counter-box .counter-card {
+    width: 250px;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.counter-card img {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.counter-card span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+.counter-card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+.testimonial-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.testimonial-container .test-heading h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 76px;
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+.test-cards-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.card-testiminoals {
+    flex: 4;
+    background: url(./Images-About/Testimonial.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.card-testiminoals .image-logo-test {
+    width: 5em;
+    margin-bottom: 10px;
+
+}
+
+.card-testiminoals .test-intro-company {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8D2C30;
+    margin-bottom: 10px;
+}
+
+.card-testiminoals p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #8D2C30;
+    margin-bottom: 15px;
+}
+
+.card-testiminoals h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+
+.call-to-action-about {
+    background: url(./Images-About/C2A.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+
+}
+
+.call-to-action-about h2 {
+    width: 80%;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8), -3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8);
+}
+
+.call-to-action-about button {
+    border-radius: 19px;
+    border: none;
+    background-color: rgb(141 44 48);
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.call-to-action-about button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+
+}
+
+/********************************************************************************************************************/
+
+
+/*****************************Products Css starts here**************************************************************/
+
+.hero-product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(./Images-Products/Hero-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.hero-product h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 94px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8), -3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8);
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-product p {
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8), -3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8);
+    margin-top: 15px;
+}
+
+.products-container-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+.products-card-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.inner-product-card {
+    width: 15em;
+    height: 15em;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.inner-product-card img {
+    width: 5em;
+}
+
+.inner-product-card button {
+    position: absolute;
+    margin-top: 16em;
+    background: #8D2C30;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+}
+
+.inner-product-card button a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+
+}
+
+#ghee-product-page {
+    width: 8em !important;
+}
+
+.products-png-container {
+    background: url(./Images-Products/village-background.png);
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -12em;
+}
+
+.call-to-action-products {
+    background: url(./Images-Products/C2A-Products.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin-top: 50px;
+}
+
+.call-to-action-products h2 {
+    width: 80%;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.call-to-action-products button {
+    border-radius: 19px;
+    border: none;
+    background-color: rgb(141 44 48 / 98%);
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.call-to-action-products button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+
+}
+
+/*****************************************************************************************************************/
+
+
+/*************A2 Milk Landing page*******************************************************************************/
+
+.container-milk-page {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+
+    padding: 30px;
+    gap: 70px;
+    margin-top: 2.5rem;
+}
+
+.milk-text-heading {
+    width: 50%;
+}
+
+.milk-right-image img {
+
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.milk-text-heading h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+
+    color: #8D2C30;
+    margin-bottom: 30px;
+
+}
+
+.milk-text-heading p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    /* or 125% */
+    margin-top: 20px;
+
+    color: #8D2C30;
+
+}
+
+.milk-text-heading button {
+    background: #8D2C30;
+    border-radius: 15px;
+    margin-top: 25px;
+    border: none;
+    padding: 4px 20px;
+
+}
+
+.milk-text-heading button a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
+
+.milk-images-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.milk-ingred-container {
+    justify-content: center;
+    display: flex;
+
+    margin-top: 10em;
+    margin-bottom: 8em;
+}
+
+.milk-ingred-container img {
+    width: 80em;
+}
+
+.call-to-action-landing-page {
+    background: url(./Images-Landing/C2A-Milk.jpg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin-top: 50px;
+}
+
+.call-to-action-landing-page h2 {
+    width: 80%;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+        -3px 0px 7px rgba(81, 67, 21, 0.8),
+        0px 4px 7px rgba(81, 67, 21, 0.8);
+}
+
+.call-to-action-landing-page button {
+    border-radius: 19px;
+    border: none;
+    background-color: rgb(141 44 48);
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.call-to-action-landing-page button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+
+}
+
+
+
+/***Additional button styling for margin top and bottom for landing pages **/
+
+.btn-bt1-landing {
+    margin-top: 55px !important;
+}
+
+.btn-bt1-landing a {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn-btn-m-diya a {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+
+/******************CONTACT US CSS*************************************/
+.form-container-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+
+.form-container-text h2 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98%;
+
+
+    text-align: center;
+
+    color: #8D2C30;
+
+}
+
+.form-container-right-left {
+    width: 80%;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 40px;
+    gap: 70px;
+
+}
+
+.form-container-right-left .form-contact-info {
+    background: #8D2C30;
+    box-shadow: 0px 0px 10px rgba(47, 49, 71, 0.6);
+    border-radius: 31.7828px;
+
+    /* padding: 25px; */
+    padding-left: 40px;
+    width: 40%;
+    padding-right: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+
+.form-contact-info .contact-block {
+    display: flex;
+    margin: 15px 0px;
+}
+
+.form-contact-info h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4em;
+
+
+
+
+    color: #FFFFFF;
+}
+
+.form-contact-info p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.form-contact-info img {
+    width: 40px;
+    height: 47px;
+    margin-top: 10px;
+
+    margin-right: 20px;
+
+}
+
+.contactForm {
+    padding: 20px;
+    /* width: 50%; */
+
+}
+
+.contactForm label {
+    display: block;
+}
+
+.contactForm input,
+.contactForm textarea {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 25px;
+    padding: 10px 0;
+}
+
+.contactForm .emailMobileSec {
+    display: flex;
+    gap: 120px;
+}
+
+.contactForm .msgSec {
+    width: 100%;
+}
+
+.contactForm .msgSec textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+}
+
+.contactForm .msgSec textarea::placeholder {
+    font-family: 'Poppins';
+    color: #0B0B29;
+}
+
+/******CAPTCHA BLOCK******/
+#captcha-block {}
+
+#second-block-cnt-2 {
+    display: flex;
+
+}
+
+#captcha-item-box-inline {
+    padding: 10px 20px;
+    background: lightgrey;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+
+#catpcha-refresh-btn {
+    border: none;
+    padding: 1px 15px;
+    background: #8d2c30;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 900;
+
+}
+
+#captcha-id-box {
+
+    background: lightgrey;
+    padding: 10px;
+    border: none;
+    color: #8d2c30;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    border-radius: 15px;
+}
+
+/************************/
+
+.contactForm .submitBtn button {
+    width: 50%;
+    margin-left: auto;
+    display: block;
+    padding: 12px 10px;
+    background-color: #8C2C31;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+#message {
+    font-size: 13px;
+}
+
+#name {
+    width: 50%;
+}
+
+#email {
+    width: 146%;
+}
+
+#mobile {
+    width: 120%;
+}
+
+#alert-box {
+    display: none;
+    color: #e84848;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/***************************************************************************************************************/
+
+
+.fixed-top {
+    position: sticky !important;
+
+
+
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #933034 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #8d2c30 !important;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.navbar-brand img {
+    width: 55%;
+}
+
+
+/*********************************************************/
+footer {
+    display: flex;
+    background-color: rgba(141, 44, 48, 1);
+    padding: 40px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.footer-container {
+    display: flex;
+    gap: 12em;
+    justify-content: space-evenly;
+}
+
+.footer-logo-left img {
+    width: 21em;
+}
+
+.footer-middle-links {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-middle-links ul {
+    padding: 0px;
+}
+
+.footer-middle-links ul li {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+
+.footer-middle-links ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#contact-num-card p {
+    margin: 0px;
+}
+
+.footer-middle-links p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.footer-text-right {}
+
+#footer-banner {
+    text-align: right;
+
+
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+#footer-banner p {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+#footer-banner p span {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+#footer-banner p span a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+        -3px 0px 7px rgba(81, 67, 21, 0.8),
+        0px 4px 7px rgba(81, 67, 21, 0.8);
+}

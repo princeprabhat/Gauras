@@ -1,0 +1,716 @@
+@media screen and (min-width:570px) and (max-width:1050px) {
+
+    .w-100 {
+        height: 55vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2.3rem;
+        line-height: 1.5;
+    }
+
+    .carousel-caption p {
+        font-size: 1.4em;
+        line-height: 1.3;
+    }
+
+    .call-to-action-home h2 {
+        font-size: 2em;
+        line-height: 1.5;
+    }
+
+
+}
+
+@media screen and (min-width:280px) and (max-width:570px) {
+    .carousel-caption {
+        top: 20% !important;
+    }
+
+    .carousel-indicators {
+        top: 87%;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        height: 2.5px !important;
+    }
+
+    .carousel-caption h2 {
+        width: 90%;
+        font-size: 1.4rem;
+        line-height: 1.2;
+        text-shadow: 0 0.125rem 0.25rem rgb(0 0 0);
+    }
+
+    .carousel-caption p {
+        font-size: 1em;
+        line-height: 25px;
+    }
+
+    .call-to-action-home h2 {
+        font-size: 1.75em;
+        line-height: 1.5;
+        width: 90%;
+    }
+
+    .call-to-action-home button a {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (min-width:279px) and (max-width:1050px) {
+
+
+
+    .navbar-collapse {
+        text-align: center;
+        padding-bottom: 10 rem;
+    }
+
+
+    .container-milk-page {
+        flex-direction: column;
+        gap: 50px;
+
+        text-align: center;
+        width: 100%;
+    }
+
+    .milk-text-heading {
+        width: 100%;
+    }
+
+
+    .milk-text-heading h2 {
+        font-size: 1.75em;
+        line-height: 1.3;
+        text-align: start;
+    }
+
+
+    .milk-text-heading p {
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: start;
+    }
+
+    .milk-right-image img {
+
+        width: 100%;
+    }
+
+    .milk-images-container {
+        gap: 45px;
+        margin-top: 35px;
+        margin-bottom: 44px;
+        flex-direction: column;
+    }
+
+    .element-price-container .Price-btn-mlk {
+        font-size: 23px;
+        line-height: 40px;
+        padding: 10px 30px;
+    }
+
+    #card-milk-pricing img {
+        width: 80%;
+    }
+
+    .milk-ingred-container {
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+
+    .milk-ingred-container img {
+        width: 90%;
+    }
+
+    .call-to-action-landing-page h2 {
+        font-size: 1.75em;
+        line-height: 1.5;
+        width: 90%;
+        text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+            -3px 0px 7px rgba(81, 67, 21, 0.8),
+            0px 4px 7px rgba(81, 67, 21, 0.8);
+
+    }
+
+    .call-to-action-landing-page button {
+        padding: 10px 30px;
+    }
+
+    .call-to-action-landing-page button a {
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+
+    .home-card-container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+
+        width: 90%;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
+
+    .card p {
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
+    .homepage-about-container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: center;
+    }
+
+    .left-image img {
+        width: 100%;
+    }
+
+    .homepage-about-container .right-text {
+        padding: 10px;
+    }
+
+    .right-text h4 {
+        font-size: 1.5em;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .right-text h2 {
+        font-size: 1.75em;
+        line-height: 1.25;
+        text-align: center;
+    }
+
+    .right-text h2 span {
+        border: none;
+    }
+
+    .right-text p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .village-png {
+        width: 90%;
+        height: 20vh;
+        margin-top: 0px;
+        background-position: center;
+    }
+
+    .heading-para-container p {
+        font-size: 1.4em;
+        line-height: 25px;
+    }
+
+    .heading-para-container h2 {
+        font-size: 1.75em;
+        line-height: 1.25;
+    }
+
+    .about-cards-container {
+        flex-direction: column;
+    }
+
+    .text-content-home {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .text-content-home h2 {
+        font-size: 1.75em;
+        line-height: 1.25;
+    }
+
+    .text-content-home p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+        font-weight: 500;
+    }
+
+    #image-box-triple {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .triple-image p {
+        font-size: 1.75em;
+        text-align: center;
+    }
+
+    .triple-image img {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    #triple-image-d-none {
+        display: none;
+    }
+
+    #triple-image-d-show {
+        display: flex !important;
+        margin: auto;
+        width: 4em !important;
+        margin-bottom: 2.5em;
+    }
+
+    .triple-image ul {
+        text-align: justify;
+        width: 315px;
+        margin: auto;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .product-heading p {
+        font-size: 1.3em;
+        line-height: 1.5;
+    }
+
+    .product-heading h2 {
+        font-size: 1.75em;
+        line-height: 1.5;
+    }
+
+    .product-card-container {
+        flex-direction: column;
+        gap: 80px
+    }
+
+    .product-card {
+        width: 90%;
+    }
+
+    .product-card img {
+        width: 175px;
+    }
+
+    #ghee-product-pic {
+        width: 215px !important;
+    }
+
+    .product-card button {
+        width: 70%;
+    }
+
+    .hero-about {
+        background-size: 100% 100%;
+        height: 60vh;
+    }
+
+    .hero-about h2 {
+        font-size: 2em;
+        line-height: 1.5;
+    }
+
+    .hero-about p {
+        width: 90%;
+        font-size: 1.3em;
+        line-height: 1.4;
+    }
+
+    .about-image-container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .about-image-container .first-column-about {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .first-column-about img {
+        width: 100%;
+    }
+
+    .about-image-container .second-column-about {
+        width: 100%;
+        align-items: center;
+    }
+
+    .about-image-container .second-column-about {
+        width: 100%;
+        display: flex;
+    }
+
+    .second-column-about img {
+        width: 100%;
+    }
+
+    .middle-container-about h2 {
+        font-size: 1.8em;
+        line-height: 1.5;
+    }
+
+    .middle-container-about p {
+        width: 90%;
+        text-align: start;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .container-about-cards-block {
+
+        padding: 0;
+    }
+
+    .about-card-text-heading h2 {
+        font-size: 1.8em;
+        line-height: 1.5;
+    }
+
+    .about-card-text-heading p {
+        text-align: justify;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .about-middle-card-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .middle-cards-2x2 {
+        padding: 10px;
+    }
+
+    #counter-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #counter-box .counter-card {
+        width: 85%;
+        height: auto;
+    }
+
+    .test-heading {
+        width: 90%;
+        margin: auto;
+    }
+
+    .testimonial-container .test-heading h2 {
+        font-size: 1.8em;
+        line-height: 1.5;
+    }
+
+    .test-cards-container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .card-testiminoals {
+        background-size: 100% 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .call-to-action-about {
+        padding: 80px 10px;
+    }
+
+    .call-to-action-about h2 {
+        font-size: 1.75em;
+        line-height: 1.5;
+        width: 90%;
+    }
+
+    .call-to-action-about button a {
+        font-size: 14px;
+    }
+
+    .hero-product {
+        background-size: cover;
+        height: 60vh;
+
+    }
+
+    .hero-product h2 {
+        font-size: 2em;
+        line-height: 1.5;
+    }
+
+    .hero-product p {
+        width: 90%;
+        font-size: 1.3em;
+        line-height: 1.4;
+    }
+
+    .products-card-box {
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+
+    .inner-product-card {
+        width: 100%;
+    }
+
+    .products-png-container {
+        background-size: 100% 100%;
+        width: 100%;
+        height: 20vh;
+        margin-top: -3em;
+    }
+
+    .call-to-action-products {
+        padding: 100px 25px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .call-to-action-products h2 {
+        font-size: 1.75em;
+        line-height: 1.5;
+        width: 90%;
+    }
+
+    .call-to-action-products button a {
+        font-size: 14px;
+    }
+
+    .form-container-text {
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+
+    .form-container-text h2 {
+        font-size: 2.3em;
+        line-height: 1.5;
+    }
+
+    .form-container-right-left {
+        width: 90%;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .form-container-right-left .form-contact-info {
+        padding-left: 20px;
+        width: 100%;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .form-contact-info .contact-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactForm {
+        padding: 10px;
+        width: 100%;
+    }
+
+    #name {
+        width: 100%;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    #mobile {
+        width: 100%;
+    }
+
+    .contactForm .emailMobileSec {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #captcha-block {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #captcha-item-box-inline {
+        width: 100%;
+        text-align: center;
+    }
+
+    #catpcha-refresh-btn {}
+
+    #captcha-id-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactForm .submitBtn button {
+        width: 100%;
+    }
+
+    .footer-container {
+        gap: 2em;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-logo-left img {
+        width: 60%;
+        border-radius: 20%;
+    }
+
+
+}
+
+@media screen and (min-width:1050px) and (max-width:1530px) {
+    .milk-text-heading h2 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .milk-images-container img {
+        width: 50% !important;
+    }
+
+    .milk-ingred-container img {
+        width: 95%;
+    }
+
+    .home-card-container {
+        width: 95%;
+        gap: 10px;
+    }
+
+    .carousel-caption {
+        top: 20%;
+    }
+
+    .homepage-about-container {
+        width: 91%;
+    }
+
+    .left-image img {
+        height: 100%;
+        width: 28em;
+    }
+
+    .homepage-about-container .right-text {
+        padding: 10px 10px 0px 20px;
+    }
+
+    .village-png {
+        height: 30vh;
+        margin-top: -55px;
+    }
+
+    .about-cards-container {
+        width: 90%;
+    }
+
+    .text-content-home {
+        width: 85%;
+    }
+
+    #image-box-triple {
+        width: 85%;
+    }
+
+    .triple-image img {
+        height: 100%;
+        width: 19em;
+    }
+
+    .product-heading {
+        width: 90%;
+        margin: auto;
+    }
+
+    .hero-about {
+        background-size: 100% 100%;
+    }
+
+    .about-image-container {
+        width: 90%;
+
+    }
+
+    .about-image-container .first-column-about {
+        flex-direction: unset;
+        width: 50%;
+        margin-right: 15px;
+    }
+
+    .first-column-about img {
+        width: 100%;
+    }
+
+    .about-image-container .second-column-about {
+        gap: 20px;
+        width: 50%;
+    }
+
+    .container-about-cards-block {
+        width: 90%;
+    }
+
+    .about-middle-card-section {
+        width: 90%;
+    }
+
+    .test-cards-container {
+        width: 90%;
+        gap: 25px;
+    }
+
+    .card-testiminoals {
+        background-size: 100% 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .heading-para-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .products-png-container {
+        background-size: 100% 100%;
+    }
+
+    .call-to-action-products h2 {
+        width: 90%;
+    }
+
+
+
+    .form-container-right-left {
+        width: 95%;
+        gap: 50px;
+    }
+
+    .footer-container {
+        gap: 5em;
+    }
+
+}
+
+@media screen and (min-width:1050px) {
+    #captcha-block {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
